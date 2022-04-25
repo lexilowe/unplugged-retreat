@@ -86,7 +86,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+
+}
+
   /* -------------------- Base Header - Footer Styles -------------------- */
+
 header,
 footer {
     display: flex;
@@ -95,44 +104,68 @@ footer {
     flex-flow: row wrap;
 }
 
-/* Header Styles */
+
+
+header {
+  padding: 15px 0;
+}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+
   
 }
 
 header nav ul li {
-  
+  list-style: none;
  
   
 
 }
 
+footer {
+  flex-direction: column;
+}
 
-.footer-content {
+footer p {
+  margin: 0;
+}
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .contact {
+  margin-bottom: 50px;
 
 }
+
 
 footer .social-icons {
   display: flex;
@@ -147,6 +180,10 @@ footer .social-icons p {
   align-items: center;
 
 }
+footer .copyright {
+  margin: 20px 0;
+  
+}
 
 
   /* -------------------- Mobile Styles - Homepage -------------------- */
@@ -158,6 +195,8 @@ footer .social-icons p {
 
 }
 
+/* aside */
+
 aside {
   display: flex;
   justify-content: center;
@@ -167,20 +206,21 @@ aside {
 }
 
 
-.form-description {
-
-}
-
-.form {
-
-}
-
 /* Features Styles */
 
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 55%;
+  margin: 30px 0;
 }
 
 .features .feature-items {
@@ -191,13 +231,8 @@ aside {
 
 }
 
-
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
+.features p {
+  margin: 0;
 }
 
 /* Reviews Section */
@@ -208,6 +243,15 @@ aside {
 
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin:  20px 0;
+}
+
 /* -------------------- Mobile Styles - About -------------------- */
 
 /* Mission Styles */
@@ -216,10 +260,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.mission .mission-content {
-
 }
 
 /* Map Styles */
@@ -237,17 +277,11 @@ aside {
   flex-flow: row wrap;
 }
 
-.contact-section .content-wrapper {
-
+.contact-content p {
+  margin: 0;
 }
 
-.contact-content {
 
-}
-
-.contact-content address {
-
-}
 
 /* -------------------- Mobile Styles - FAQ -------------------- */
 
@@ -259,14 +293,19 @@ aside {
 }
 
 .faq .content-wrapper {
+  margin:  50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.faq .faq-content {
+.faq h2 {
+  margin-bottom: 40px;
+}
 
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
