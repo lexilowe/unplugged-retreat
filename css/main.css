@@ -100,14 +100,6 @@ body {
   color: #e2e3ed;
 
 }
-
-img { 
-  width: 100%;
-}
- 
-figure {
-  margin: 0;
-}
  
 ul, 
 ol {
@@ -137,6 +129,14 @@ h4 {
 p {
   font-size: .875em;
   line-height: 1.285em;
+}
+
+img { 
+  width: 100%;
+}
+ 
+figure {
+  margin: 0;
 }
  
  
@@ -253,21 +253,19 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
-  background-size: cover;
-  
-
 }
 
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
-  line-height: 1.2; 
-  padding-bottom: 300px;
+  line-height: 1.2;
 }
 
 /* aside */
@@ -380,8 +378,20 @@ input[type=button] {
 
 /* Map Styles */
 
-.map {
-
+.map figure {
+  width: 100%;
+  height: 0; 
+  padding-bottom: 125%; 
+  overflow: hidden;
+  position: relative;
+}
+ 
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
 }
 
 /* Contact Styles */
@@ -609,7 +619,7 @@ input[type=button] {
   /* Reviews */
 
   .reviews figure {
-    width: 48%;
+    width: 49%;
   }
 
   .reviews article {
