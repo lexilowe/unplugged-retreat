@@ -786,10 +786,7 @@ input[type=button] {
     margin: 50px 0 90px 0;
   }
 
-  .contact-section .content-wrapper h2 {
-    width: 80%;
-  }
-
+ 
   .contact-content {
     display: flex;
     justify-content: space-between;
@@ -930,6 +927,7 @@ input[type=button] {
   .contact-content h4 {
   font-size: 1.875em;
   }
+
 
 
 
