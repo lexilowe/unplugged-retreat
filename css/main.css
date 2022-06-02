@@ -268,7 +268,7 @@ footer .copyright {
 }
 
 .hero-area .content-wrapper {
-  margin-top:30px;
+  margin-top:10px;
 }
 
 
@@ -277,6 +277,7 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2;
+  margin-bottom: 30px;
 }
 
 /* aside */
@@ -627,6 +628,10 @@ input[type=button] {
   }
   /* Hero Area */
 
+    .hero-area .content-wrapper {
+      margin-top: 40px;
+    }
+
    .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -823,6 +828,8 @@ input[type=button] {
   }
 
 /* Hero */
+  
+
   .hero-area h1 {
     font-size: 3.75em;
     width: 70%;
